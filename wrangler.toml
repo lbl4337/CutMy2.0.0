@@ -1,0 +1,11 @@
+name = "cutmy-shop"
+pages_build_output_dir = "./public"
+
+[env.production]
+vars = { 
+  DB_HOST = "mysql-5456f0d-cutmy.l.aivencloud.com",
+  DB_PORT = "11636",
+  DB_USER = "avnadmin",
+  DB_PASSWORD = "AVNS_ePlD8mFxi4r3Jjk-xV_",
+  DB_NAME = "defaultdb"
+}
